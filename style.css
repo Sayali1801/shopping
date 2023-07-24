@@ -206,8 +206,9 @@ left: 0%;
 
 #banner{
     display: flex;
-    justify-content: space-evenly;
-    padding: 20px 100px
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px
 }
 .banner-back{
     background-image: url('./img/banner/b17.jpg');
@@ -240,7 +241,7 @@ left: 0%;
     font-weight: 500;
     line-height: 50px;
 }
-#s-banner button{ 
+#s-banner button{
     border:1px solid white;
     padding: 10px 20px;
     color: white;
